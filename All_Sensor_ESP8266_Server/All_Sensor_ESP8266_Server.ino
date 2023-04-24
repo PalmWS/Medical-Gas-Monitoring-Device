@@ -9,15 +9,9 @@
 
 ESP8266WiFiMulti WiFiMulti;
 
-/*const char* ssid = "BrainwaveEshop";
-const char* pass = "0837684321";*/
-
-
-const char* ssid = "RJINNO_2.4G";
-const char* pass = "28322832";
-
-/*const char* ssid = "vivo 1806";
-const char* pass = "ployyyyy";*/
+//Wifi Setting
+const char* ssid = userwifi;
+const char* pass = passwifi;
 
 #if 1
 __asm volatile ("nop");
