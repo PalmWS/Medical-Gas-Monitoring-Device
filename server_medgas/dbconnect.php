@@ -2,10 +2,10 @@
 
 //dbconnect.php
 
-$MyUserName = "id9561581_wisanu3110";
-$MyPassword = "31102539";
+$MyUserName = DATABASE_USER;
+$MyPassword = DATABASE_PASSWORD;
 $MyHostname = "localhost";
-$My_db = "id9561581_medgas";
+$My_db = DATABASE_NAME;
 
 $dbh = mysqli_connect($MyHostname,$MyUserName,$MyPassword,$My_db);
 
